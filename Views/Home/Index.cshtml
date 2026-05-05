@@ -8,4 +8,7 @@
 </div>
 @foreach(cabaña c in ViewBag.cabañas.Values){
     <h2>@c.devolverNombre()</h2>
+    @foreach(string foto in @c.devolverListaFotos()){
+         <a href=""> <img src="imagenes/@foto"/> </a>
+    }
 }

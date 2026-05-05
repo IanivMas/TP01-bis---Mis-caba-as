@@ -1,7 +1,7 @@
 @{
     ViewData["Title"] = "informacion de las cabañas";
 }
-@foreach (cabaña d in ViewBag.cabaña.Values)
+@foreach (cabaña d in ViewBag.cabaña.Value)
 {
-    <h2>@d.devolverFoto() </h2>
+    <h2>@d.devolverListaFotos() </h2>
 }

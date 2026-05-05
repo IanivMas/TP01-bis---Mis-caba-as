@@ -33,7 +33,7 @@ namespace TP1bis.Models
         {
             return capacidad;
         }
-        public List <string> devolverListaFotos ()
+        public List<string> devolverListaFotos ()
         {
             return listaFotos;
         }
