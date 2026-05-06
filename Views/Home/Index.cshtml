@@ -6,9 +6,18 @@
     <h1 class="display-4">Welcome</h1>
     <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>
-@foreach(cabaña c in ViewBag.cabañas.Values){
-    <h2>@c.devolverNombre()</h2>
-    @foreach(string foto in @c.devolverListaFotos()){
-         <a href=""> <img src="imagenes/@foto"/> </a>
-    }
+@foreach (cabaña c in ViewBag.cabañas.Values)
+{
+    <div>
+        <h2>@c.devolverNombre()</h2>
+
+        @if (c.devolverListaFotos().Count > 0)
+        {
+            <img src="/imagenes/@c.devolverListaFotos()[0]" />
+        }
+        <p>Capacidad: @c.devolverCapacidad()</p>
+        <a href="/Home/Detalle?id=@c.devolverId()">
+        Ver detalle
+        </a>
+    </div>
 }
