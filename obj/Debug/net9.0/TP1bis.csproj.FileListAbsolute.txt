@@ -34,7 +34,6 @@ C:\Users\49836040\TP01-bis---Mis-caba-as\obj\Debug\net9.0\rjsmcshtml.dswa.cache.
 C:\Users\49836040\TP01-bis---Mis-caba-as\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\49836040\TP01-bis---Mis-caba-as\obj\Debug\net9.0\scopedcss\bundle\TP1bis.styles.css
 C:\Users\49836040\TP01-bis---Mis-caba-as\obj\Debug\net9.0\scopedcss\projectbundle\TP1bis.bundle.scp.css
-C:\Users\49836040\TP01-bis---Mis-caba-as\obj\Debug\net9.0\compressed\ivf1vmie4x-b9sayid5wm.gz
 C:\Users\49836040\TP01-bis---Mis-caba-as\obj\Debug\net9.0\compressed\28luk83inj-61n19gt1b8.gz
 C:\Users\49836040\TP01-bis---Mis-caba-as\obj\Debug\net9.0\compressed\9xo4yuy95j-xtxxf3hu2r.gz
 C:\Users\49836040\TP01-bis---Mis-caba-as\obj\Debug\net9.0\compressed\yfpoi3gzlt-t1cqhe9u97.gz
@@ -107,3 +106,4 @@ C:\Users\49836040\TP01-bis---Mis-caba-as\obj\Debug\net9.0\refint\TP1bis.dll
 C:\Users\49836040\TP01-bis---Mis-caba-as\obj\Debug\net9.0\TP1bis.pdb
 C:\Users\49836040\TP01-bis---Mis-caba-as\obj\Debug\net9.0\TP1bis.genruntimeconfig.cache
 C:\Users\49836040\TP01-bis---Mis-caba-as\obj\Debug\net9.0\ref\TP1bis.dll
+C:\Users\49836040\TP01-bis---Mis-caba-as\obj\Debug\net9.0\compressed\ivf1vmie4x-73es8jurxa.gz
