@@ -10,11 +10,11 @@ namespace TP1bis.Models
         }
         public void cargaDeDatosManual ()
         {
-            cabaña cabaña1 = new cabaña (1, "zas", "cabaña moderna", 5, new List<string>{"/imagenes/foto1.png","foto2.png","foto3.png"}, new List<string>{"cocina","comedor","habitacion 1","habitacion 2", "habitacion 3"});
+            cabaña cabaña1 = new cabaña (1, "CABAÑA 1", "cabaña moderna", 5, new List<string>{"foto1.png","foto2.png","foto3.png"}, new List<string>{"cocina","comedor","habitacion 1","habitacion 2", "habitacion 3"});
             cabañas.Add(1, cabaña1);
-            cabaña cabaña2 = new cabaña (2, "nashe", "cabaña vieja", 4, new List<string>{"foto4.png","foto5.png","foto6.png"}, new List<string>{"cocina","comedor","habitacion 1","habitacion 2"});
+            cabaña cabaña2 = new cabaña (2, "CABAÑA 2", "cabaña vieja", 4, new List<string>{"foto4.png","foto5.png","foto6.png"}, new List<string>{"cocina","comedor","habitacion 1","habitacion 2"});
             cabañas.Add(2, cabaña2);
-            cabaña cabaña3 = new cabaña (3, "polimardo", "cabaña moderna grande", 7, new List<string>{"foto7.png","foto8.png","foto9.png"}, new List<string>{"cocina","comedor","habitacion 1","habitacion 2","habitacion 3","habitacion 4"});
+            cabaña cabaña3 = new cabaña (3, "CABAÑA 3", "cabaña moderna grande", 7, new List<string>{"foto7.png","foto8.png","foto9.png"}, new List<string>{"cocina","comedor","habitacion 1","habitacion 2","habitacion 3","habitacion 4"});
             cabañas.Add(3, cabaña3);
         }
         public Dictionary <int, cabaña> devolverCabañas ()

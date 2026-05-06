@@ -1,8 +1,18 @@
 @{
-    ViewData["Title"] = "informacion de las cabañas";
+    cabaña c = ViewBag.cabaña;
 }
-@foreach (cabaña d in ViewBag.cabaña.Value)
+<h1>@c.devolverNombre()</h1>
+<p> </p>
+<h4><h4>TIPO:</h4>@c.devolverDescripcion()</h4>
+<p> </p>
+<h4><h4>CAPACIDAD:</h4>@c.devolverCapacidad() personas</h4>
+<p> </p>
+ <h4>AMBIENTES:</h4>
+@foreach(string d in c.devolverListaAmbientes())
 {
-    <h2>@d.devolverListaFotos() </h2>
-    
+   <p>@d</p>
+}
+@foreach(string foto in @c.devolverListaFotos())
+{
+         <p><img src="/imagenes/@foto"/> </a> </p>
 }

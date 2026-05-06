@@ -3,8 +3,7 @@
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h1 class="display-4">MIRA NUESTRAS CABAÑAS</h1>
 </div>
 @foreach (cabaña c in ViewBag.cabañas.Values)
 {
@@ -16,7 +15,7 @@
             <img src="/imagenes/@c.devolverListaFotos()[0]" />
         }
         <p>Capacidad: @c.devolverCapacidad()</p>
-        <a href="/Home/Detalle?id=@c.devolverId()">
+        <a href="/Home/accion2?id=@c.devolverId()">
         Ver detalle
         </a>
     </div>
